@@ -7,7 +7,7 @@ const Footer = () => {
             <Link href="/" className="font-bold text-xl">
                 cFood
             </Link>
-            <p>Todos os direitos reservados</p>
+            <p className="sm:hidden">Todos os direitos reservados</p>
         </div>
     );
 };
