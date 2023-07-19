@@ -1,10 +1,10 @@
 "use client";
 
-import { links } from "@/utils/links";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import CartIcon from "./CartIcon";
+import { links } from "../utils/links";
 
 const Menu = () => {
     const [open, setOpen] = useState(false);
